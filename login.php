@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
             $login=1;
             session_start();
             $_SESSION['username'] = $username;
-            header('location:home.php');
+            header('location:home1.php');          //home.php
         }else{
             //  echo "Invalid username or password";
             $invalid=1;
